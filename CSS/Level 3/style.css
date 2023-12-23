@@ -1,0 +1,32 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 2px solid black;
+    display: inline-block;
+    color: white;
+}
+
+#box1 {
+    background-color: red;
+    background-image: url("cat.jpg");
+    background-size: cover;
+}
+
+#box2 {
+    background-color: green;
+    background-image: url("rabbit.jpg");
+    background-size: cover;
+}
+
+#box3 {
+    background-color: yellow;
+    background-image: url("chitta.jpg");
+    background-size: cover;
+}
+
+#box4 {
+    background-color: blue;
+    background-image: url("dear.jpg");
+    background-size: cover;
+}

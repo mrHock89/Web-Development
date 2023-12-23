@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.blue {
+    background-color: rgba(0,0,200,1);
+    display: inline-block;
+}
+
+.green {
+    background-color: rgba(0,255,0,0.4);
+    display: inline-block;
+
+}
+
+.red {
+    background-color: rgba(255,0,0,0.5);
+    display: inline-block;
+}
+
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+}
+
+h1 {
+    margin-bottom: 55px;
+}
+
+

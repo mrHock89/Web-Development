@@ -1,0 +1,31 @@
+div {
+    height: 100px;
+    width: 100px;
+    /* border-radius: 50%; */
+    margin: 25px;
+    padding: 25px;
+    /* border:  10px solid black; */
+    display: inline-block;
+}
+
+#red {
+    background-color: red;  
+    /* visibility: hidden; */
+}
+
+#blue {
+    background-color: blue;  
+    /* visibility: hidden; */
+}
+
+#green {
+    background-color: green;  
+    display: none;
+}
+
+/* button {
+    display: block;
+    background-color: orange;
+    /* after adding block display property iit will act as block element */
+    display: block;
+} */

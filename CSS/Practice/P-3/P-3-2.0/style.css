@@ -1,0 +1,38 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+.navbar {
+    background-color: black;
+    height: 60px;
+    border: 3px solid white;
+    margin-top: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-right: 150px;
+}
+
+.logo {
+    color: orange;
+    font-size: 25px;
+}
+
+.search {
+    background-color: orange;
+    color: white;
+}
+
+header {
+    background-color: orange;
+    color: black;
+}
+
+html {
+    background-color: rgb(2, 2, 44);
+}

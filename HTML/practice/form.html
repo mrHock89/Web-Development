@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Registration form</h4>
+    <form action="./action.php">
+        <input type="text" placeholder="Enter Your name" />
+        <input type="password" placeholder="password" />
+        <br />
+        <h4> Select your class</h4>
+        <input type="radio" value="class XI" name="class" /> Class XI
+        <br />
+        <input type="radio" value="class XII" name="class" />Class XII
+
+        <br />
+    </form>
+    <hr />
+    
+    <!-- <form action="./action.php"> -->
+        <!--Using lebel elements-->
+        <!-- <label for="101">
+            <input type="radio" value="class xi" name="class" id="101" />class xi
+        </label>
+        <br />
+        <label for="102">
+            <input type="radio" vlaue="class xii" name="class" id="102" />class xii
+        </label>
+    </form>
+
+    <div style='color:red;' id="id1" class="group1">
+        <p>Hello</p>
+        <p>Namaste</p>
+    </div>
+    <div id="id2" class="group1">
+        <p>Bye</p>
+        <p>Tata</p>
+    </div> -->
+    <br />
+    <h5>Select your subjects:<h5>
+    <form action="./action.php">
+        <label for="math">
+            <input type="checkbox" value="math" name="subject" id="101" />Math
+        </label>
+        <br />
+        <label for="physics">
+            <input type="checkbox" value="physics" name="subject" id="101" />Physics
+        </label>
+        <br />
+        <label for="chemistry">
+            <input type="checkbox" value="chemistry" name="subject" id="101" />Chemistry
+        </label>
+        <br />
+        <h5>Select your city:</h5>
+            <select name="city" id="city">
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Kolkata">Kolkata</option>
+            </select>
+        <br />
+        <hr />
+        <!--iframe tags-->
+        <h4>Java tutorial</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UmnCZ7-9yDY?si=vT8aNrgc6VzPu31f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <br />
+        <iframe width="1000" height="315" src="https://www.wikipedia.org/"></iframe>
+        <br />
+        <!--Video tags-->
+        <video width="560" height="315" src="./Recording 2023-11-23 070414.mp4" controls loops autoplay >My video </video>
+        <hr />
+        <h5>Give us feedback</h5>
+        <!--Textarea-->
+        <textarea name="feedback" id="103" placeholder="Please give your feedback" rows="5" />Feedback</textarea>
+        <br />
+        <!--Submit-->
+        <input type="submit" value="submit" />
+    </form>
+</body>
+</html>

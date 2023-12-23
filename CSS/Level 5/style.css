@@ -1,0 +1,29 @@
+div {
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* animation-name: colorAnime;
+    animation-duration: 0.2s;
+    border: 2px solid black;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+    animation: colorAnime 1s linear 0s infinite alternate-reverse;    
+}
+
+@keyframes colorAnime {
+    0% {
+        background-color: aqua;
+        left: 0px;
+    }
+    50% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: red;
+        left: 200px;
+    }
+}

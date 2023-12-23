@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    border: 10px solid blue;
+    border-left: 10px solid black;
+
+    border-radius: 50%;
+    /* border-left: thick; */
+    height: 100px;
+    width: 100px;
+    /* background-color: red; */
+    animation: spin 0.5s ease-in-out 0s infinite normal;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+        background-color: red;
+    }
+    50% {
+        background-color: green;
+    }
+    100% {
+        transform: rotate(360deg);
+        background-color: yellow;
+    }
+}
